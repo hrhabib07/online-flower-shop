@@ -139,3 +139,27 @@ justify-content: center;
     margin: 0 auto;
     justify-content: space-around; 
 }
+
+ /* subscription section starts here  */
+ .subscription-container{
+    width: 90rem;
+    margin: 4rem auto;
+height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/Rectangle\ 9.png");
+ }
+ .sub-section-container{
+    
+ }
+ .subscription-input {
+    display: flex;
+}
+.subscription-input input{
+    display: inline-block;
+    width: 40rem;
+height: 4rem;
+padding-left: 2rem;
+margin-right: 2rem;
+}
