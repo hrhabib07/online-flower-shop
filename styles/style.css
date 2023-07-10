@@ -17,6 +17,9 @@ body {
     line-height: normal;
     border: none;
 }
+.primary-color{
+    color: #E55473;
+}
 
 .default-title {
     color: #272727;
@@ -34,7 +37,7 @@ header {
     padding-top: 3rem;
 }
 
-.top-banner {
+.banner {
     display: flex;
     justify-content: space-around;
     width: 90rem;
@@ -88,7 +91,6 @@ header {
     margin-bottom: 0;
         position: relative;
         width: 29rem;
-
         border-radius: 18.75rem 18.75rem 0rem 0rem;
     }
     
@@ -111,4 +113,10 @@ header {
     columns: #272727;
     text-align: center;
     text-decoration: underline;
+}
+
+/* styles for hot deal section  */
+.hot-deal{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-top: 3rem;
 }
