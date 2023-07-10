@@ -128,3 +128,14 @@ margin: 5rem auto;
 display: flex;
 justify-content: center;
 }
+/* styles for social media starts here  */
+.social-media-section{
+    margin : 0 0 8rem 0;
+
+}
+.image-container{
+    width: 90rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around; 
+}
