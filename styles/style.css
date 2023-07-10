@@ -67,6 +67,9 @@ header {
     }
     
     /* our featured section started here */
+    .featured-section{
+margin: 5rem auto;
+    }
     .section-title{
         text-align: center;
         margin: 5rem 0;
@@ -116,7 +119,12 @@ header {
 }
 
 /* styles for hot deal section  */
+
 .hot-deal{
     background-color: rgba(229, 84, 115, 0.10);
     padding-top: 3rem;
+    margin: 5rem auto;
+    height: 38.75rem;
+display: flex;
+justify-content: center;
 }
