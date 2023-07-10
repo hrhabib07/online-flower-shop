@@ -1,9 +1,32 @@
-/* shared styles  */
+/* shared common styles  */
 body {
     margin: 0;
         padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+.btn-primary {
+    background-color: #E55473;
+    border-radius: 0.5rem;
+    width: 11rem;
+    height: 4rem;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.default-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
 }
 /* styles for header  */
 header {
@@ -30,24 +53,62 @@ header {
     padding: 0;
 }
 
-.banner-description {
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-}
+    margin-top: 0;
+    }
+    
+    /* our featured section started here */
+    .section-title{
+        text-align: center;
+        margin: 5rem 0;
+    }
+    
+    .grid-container {
+        width: 90rem;
+        margin: 0 auto ;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
-.btn-primary {
-    background-color: #E55473;
-    border-radius: 0.5rem;
-    width: 11rem;
-    height: 4rem;
-    color: #FFF;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border: none;
+    }
+    
+    .grid-item {
+    margin-bottom: 0;
+        position: relative;
+        width: 29rem;
+        height: 33.625rem;
+        border-radius: 18.75rem 18.75rem 0rem 0rem;
+    }
+    .grid-item-flower {
+    margin-bottom: 0;
+        position: relative;
+        width: 29rem;
+
+        border-radius: 18.75rem 18.75rem 0rem 0rem;
+    }
+    
+    .grid-item img {
+        position: absolute;
+        bottom: 0;
+        left: 4rem;
+        margin-bottom: 0;
+    }
+    
+#pink-flower-bg {
+        background-color: rgba(167, 33, 98, 0.15);}
+#light-flower-bg {
+                    background-color: rgba(5, 151, 160, 0.15);
+}
+#last-flower-bg {
+    background-color:rgba(71, 125, 17, 0.15);;
+}
+.flowers-name{
+    columns: #272727;
+    text-align: center;
+    text-decoration: underline;
 }
